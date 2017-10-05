@@ -17,7 +17,7 @@ s.requires_arc = true
 s.source_files = 'Pod/Classes/**/*'
 
 s.frameworks = 'Foundation'
-s.dependency 'RxSwift', git: 'https://github.com/ReactiveX/RxSwift.git', branch: 'rxswift4.0-swift4.0'
-s.dependency 'RxCocoa', git: 'https://github.com/ReactiveX/RxSwift.git', branch: 'rxswift4.0-swift4.0'
+s.dependency 'RxSwift', '~> 4.0.0-beta.1'
+s.dependency 'RxCocoa', '~> 4.0.0-beta.1'
 
 end
