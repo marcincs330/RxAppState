@@ -11,13 +11,13 @@ s.author           = { "Jörn Schoppe" => "joern@pixeldock.com" }
 s.source           = { :git => "https://github.com/pixeldock/RxAppState.git", :tag => s.version.to_s }
 s.social_media_url = 'https://twitter.com/pixeldock'
 
-s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '10.0'
 s.requires_arc = true
 
 s.source_files = 'Pod/Classes/**/*'
 
 s.frameworks = 'Foundation'
-s.dependency 'RxSwift', '~> 4.0'
-s.dependency 'RxCocoa', '~> 4.0'
+s.dependency 'RxSwift', git: 'https://github.com/ReactiveX/RxSwift.git', branch: 'rxswift4.0-swift4.0'
+s.dependency 'RxCocoa', git: 'https://github.com/ReactiveX/RxSwift.git', branch: 'rxswift4.0-swift4.0'
 
 end
