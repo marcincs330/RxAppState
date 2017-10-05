@@ -17,7 +17,7 @@ s.requires_arc = true
 s.source_files = 'Pod/Classes/**/*'
 
 s.frameworks = 'Foundation'
-s.dependency 'RxSwift', '~> 3.4'
-s.dependency 'RxCocoa', '~> 3.4'
+s.dependency 'RxSwift', '~> 4.0'
+s.dependency 'RxCocoa', '~> 4.0'
 
 end
