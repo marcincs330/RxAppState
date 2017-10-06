@@ -11,6 +11,8 @@ import RxCocoa
 
 class RxApplicationDelegateProxy: DelegateProxy, UIApplicationDelegate, DelegateProxyType {
     
+    static var factory: DelegateProxyFactory
+    
     /**
      For more information take a look at `DelegateProxyType`.
      */
